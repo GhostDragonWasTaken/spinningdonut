@@ -1,13 +1,10 @@
 import math
-import os
-import time
 
 
 def donut():
     A = 0
     B = 0
     while True:
-        os.system("clear")
         buffer = [0] * 1760
         b = [' '] * 1760
         for j in range(0, 628, 7):
@@ -34,7 +31,6 @@ def donut():
         print(''.join(b))
         A += 0.04
         B += 0.01
-        time.sleep(0.01)
 
 
 if __name__ == '__main__':
